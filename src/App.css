@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+
+
+:root{
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+main{
+  padding-bottom: 2rem;
+  font-family: var(--bs-font-sans-serif);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#hero-section{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  background: url("../src/images/slider-img2.jpg") center/cover no-repeat;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.hero-content{
+  text-align: center ;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-content h1{
+  font-size: 4.5em;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar{
+  scroll-behavior: smooth;
+  transition: 0.6s;
+  padding: 0.8rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed !important;
+  color: white ;
+}
+
+.navbar.sticky{
+  transition: 0.6s;
+  background-color: white;
+  color: #333; 
+  padding: 5px 10px ;
+  box-shadow: 4px 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.1);
+}
+
+.navlist{
+  margin-top: -2.7rem;  
+}
+
+.navlist ul{
+  margin-right: 3.5rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: end;
+}
+
+.navbar ul .navitem{
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1.2em;
+  list-style: none;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.navbar ul .navitem:hover{
+  cursor:pointer;
+}
+
+.navbar-brand{
+  margin-top: 1rem;
+  margin-left: 3.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 2px 2px rgba(0.2, 0.2, 0.2, 0.15);
+}
+
+.navbar-brand:hover{
+  cursor: pointer;
+}
+
+.card{
+  width: 90%;
+  margin-top:1rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.1);
+}
+
+.card-img{
+  border-radius: 10px 0 0 10px;
+  width: 300px;
+  background-color: rgb(202, 214, 206);
+
+}
+
+.card-content{
+  margin-left: 1rem;
+  z-index: -1;
+
+}
+
+.card-content .card-title{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+
+
+}
+
+.card-content .description{
+  margin-top: 1.5rem;
+  font-size: 1.1em;
+  color: #444;
+  max-width: 98%;
+  font-weight: 300;
+}
+
+.card-content .location{
+  margin-top: 2rem;
+  font-size: 1em;
+  color: rgb(37, 79, 80);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.card-date{
+  margin-top: 2rem;
+  font-size: 0.8em;
+  color: #333;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.menu-dark, .menu-white{
+  display: none;
+}
+
+
+@media(max-width: 768px)
+{
+
+  .card{
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card-img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .hero-content{
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+   
+  }
+
+  .hero-content h1{
+    font-size: 3em;
+  }
+
+  .navlist ul {
+    margin-right: 1rem !important;
+  }
+
+  .navbar-brand{
+    margin-left: 1rem !important;
+  }
+
+}
+
+
+@media(max-width: 991px)
+{
+  .menu-white{
+    display: block !important;
+  }
+
+  .navbar.sticky .menu-dark{
+    margin: 0;
+    display: block;
+  }
+
+  .navbar.sticky .menu-white{
+    display: none !important;
+  }
+
+  .menu-white:hover, .menu-dark:hover{
+    cursor: pointer;
+  }
+
+  .navlist ul .navitem{
+    display: none ;
+  }
+
+  .navbar-brand{
+    margin-left: 2rem;
+  }
+  .navlist{
+    margin-top: -3rem;  
+  }
+
+  .navlist ul{
+    margin-right: 2rem;
   }
 }
+
