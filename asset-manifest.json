@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Trip-tips/static/css/main.5ff3d27d.css",
+    "main.js": "/Trip-tips/static/js/main.9f2a0284.js",
+    "static/js/787.c1112931.chunk.js": "/Trip-tips/static/js/787.c1112931.chunk.js",
+    "static/media/slider-img2.jpg": "/Trip-tips/static/media/slider-img2.04ec7910429a291afa47.jpg",
+    "index.html": "/Trip-tips/index.html",
+    "main.5ff3d27d.css.map": "/Trip-tips/static/css/main.5ff3d27d.css.map",
+    "main.9f2a0284.js.map": "/Trip-tips/static/js/main.9f2a0284.js.map",
+    "787.c1112931.chunk.js.map": "/Trip-tips/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ff3d27d.css",
+    "static/js/main.9f2a0284.js"
+  ]
+}
