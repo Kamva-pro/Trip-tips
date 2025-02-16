@@ -2,20 +2,16 @@ import './App.css';
 import Data from './Data.js';
 import Card from './Card.jsx';
 import Header from './Header';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const travelData = Data.map(travel => {
-    return (
-      <Card 
-      {...travel}/>
-    )
-  })
   return (
-    <main>
-      
-     <Header/>
-      {travelData}
-    </main>
+    <BrowserRouter>
+      <Routes>
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 
