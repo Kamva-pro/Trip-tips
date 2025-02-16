@@ -1,7 +1,20 @@
+import { babylon,
+    bali,
+    aaron,
+    about,
+    tokyo,
+    carribean,
+    slider,
+    slider2,
+    slider3,
+    india,
+    kenya
+ } from "./images"
+
 export default [
 
     {
-        img: './images/about-img.jpg',
+        img: about,
         title: "Take a Journey Through Europe",
         location: "Paris, France",
         googleMapsUrl: "https://goo.gl/maps/Wg3q3uVY9pZtL84G8",
@@ -11,7 +24,7 @@ export default [
     },
 
     {
-        img: './images/slider-img.jpg',
+        img: slider,
         title: "Discover the Beauty of Tuscany",
         location: "Florence, Italy",
         googleMapsUrl: "https://goo.gl/maps/1VX9tNuL7nNx4gjZ7",
@@ -21,7 +34,7 @@ export default [
     },
 
     {
-        img: './images/aaron.png',
+        img: aaron,
         title: "Experience the Northern Lights",
         location: "Reykjavik, Iceland",
         googleMapsUrl: "https://goo.gl/maps/8nU6D1JnhjKxHWZV8",
@@ -32,7 +45,7 @@ export default [
 
 
     {
-        img: './images/slider-img3.jpg',
+        img: slider3,
         title: "Explore the Beauty of Macedonia",
         location: "Skopje, Macedonia",
         googleMapsUrl: "https://goo.gl/maps/8zAa6PvUQPQyFALj7",
@@ -42,7 +55,7 @@ export default [
     },
 
     {
-        img:'./images/babylon.jpg',
+        img: babylon,
         title: "Step Back in Time in Babylon",
         location: "Hillah, Iraq",
         googleMapsUrl: "https://goo.gl/maps/Q9XCgx4xVuKLFbzQA",
@@ -52,7 +65,7 @@ export default [
     },
 
     {
-        img: './images/p5.jpg',
+        img: india,
         title: "Discover the Culture of India",
         location: "Delhi, India",
         googleMapsUrl: 'https://goo.gl/maps/xuLWzA8LbE6UjL6U7',
@@ -63,7 +76,7 @@ export default [
 
 
     {
-        img:"./images/bali-2.jpg",
+        img: bali,
         title: "Discover the Beauty of Bali",
         location: "Bali, Indonesia",
         googleMapsUrl: "https://goo.gl/maps/iAZQ4ia4bz7sFSsM8",
@@ -73,7 +86,7 @@ export default [
     },
 
     {
-        img:'./images/kenya-4.jpg',
+        img: kenya,
         title: "Safari Adventure in Kenya",
         location: "Nairobi, Kenya",
         googleMapsUrl:  "https://goo.gl/maps/4hFPFzNKTKwkTZ1v9",
@@ -83,7 +96,7 @@ export default [
     },
 
     {
-        img:'./images/carribean.jpg',
+        img: carribean,
         title: "Island Hopping in the Caribbean",
         location: "Caribbean",
         googleMapsUrl:  "https://goo.gl/maps/GPKj9XkMfLthzAwv8",
@@ -93,7 +106,7 @@ export default [
     },
 
     {
-        img:'./images/tokyo.jpg',
+        img: tokyo,
         title: "Discover the Magic of Japan",
         location: "Tokyo, Japan",
         googleMapsUrl:  "https://goo.gl/maps/Gp7xAJfhMwjNvQgW8",
