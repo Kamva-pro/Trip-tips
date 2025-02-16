@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CardDetails = () => {
+const CardDetails = (title, desc, img, start, end) => {
   return (
     <div>CardDetails</div>
   )

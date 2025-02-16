@@ -4,6 +4,7 @@ import './App.css';
 import Data from './Data.js';
 import Card from './Card.jsx';
 import Header from './Header';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     const travelData = Data.map(travel => {
@@ -16,7 +17,9 @@ const HomePage = () => {
     
     <main>
         <Header/>
+        <Link to={'/details'}>
         {travelData}
+        </Link>
 
     </main>
 

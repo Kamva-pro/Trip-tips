@@ -1,7 +1,5 @@
 export default function Cart(props)
 {
-    console.log("Image path:", props.img);
-
     return(
         <div>
             <article className="card">
