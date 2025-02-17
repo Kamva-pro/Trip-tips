@@ -2,8 +2,14 @@ import React from 'react';
 import { Header } from './Header';
 import { useLocation } from 'react-router-dom';
 import './CardDetails.css';
+import Navbar from './Navbar';
+
 
 const CardDetails = () => {
+
+
+  // var nav = document.getElementsByClassName("nav");
+  // nav.classList("sticky")
   const location = useLocation();
   // Retrieve the passed travel data from the Link's state
   const { travelData } = location.state || {};
@@ -13,8 +19,9 @@ const CardDetails = () => {
   }
 
   return (
+    <main>
+      <Navbar />
     <div className="card-details-container">
-      <Header />
       <div className="blog-card">
         <img
           src={travelData.img}
@@ -37,7 +44,7 @@ const CardDetails = () => {
               </a>
             </span>
             <span className="blog-card-dates">
-              
+
               {travelData.startDate} - {travelData.endDate}
             </span>
           </div>
@@ -45,6 +52,8 @@ const CardDetails = () => {
         </div>
       </div>
     </div>
+    </main>
+
   );
 };
 
