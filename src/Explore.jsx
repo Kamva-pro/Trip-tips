@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import travelData from "./travelData"; // Import your travel data
+import Data from './Data.js';
 
 const categories = [
     "Beaches",
@@ -19,11 +19,11 @@ const Explore = () => {
                     <div key={category} className="category-card">
                         <h2>{category}</h2>
                         <ul>
-                            {travelData
+                            {Data
                                 .filter((item) => item.category === category)
                                 .map((item) => (
                                     <li key={item.id}>
-                                        <Link to={`/details`} state={{ travelData: item }}>
+                                        <Link to={`/details`} state={{ Data: item }}>
                                             {item.title} - {item.location}
                                         </Link>
                                     </li>

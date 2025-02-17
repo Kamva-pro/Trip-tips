@@ -2,6 +2,14 @@ import { Link } from 'react-router-dom';
 import Data from './Data.js';
 
 const Sidebar = () => {
+    const categories = [
+        "Beaches",
+        "Cities",
+        "Culture",
+        "History",
+        "Nature"
+    ];
+
   return (
     <aside className="sidebar">
       <div className="sidebar-section">
@@ -25,16 +33,14 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      <div className="sidebar-section">
-    <h2>Categories</h2>
-    <ul>
-        {categories.map((category) => (
-            <li key={category}>
-                <Link to={`/explore/${category.toLowerCase()}`}>{category}</Link>
-            </li>
-        ))}
-    </ul>
-</div>
+      {/* <h2>Categories</h2>
+      <ul>
+                {categories.map((category) => (
+                    <li key={category}>
+                        <Link to={`/explore/${category.toLowerCase()}`}>{category}</Link>
+                    </li>
+                ))}
+            </ul> */}
 
     </aside>
   );
