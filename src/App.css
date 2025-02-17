@@ -223,9 +223,9 @@ main{
 .no-underline {
   text-decoration: none;
 }
-/* Remove default link styles */
 a {
-  text-decoration: none; /* Removes the underline */
+  text-decoration: none; 
+  color: inherit;
   
 }
 

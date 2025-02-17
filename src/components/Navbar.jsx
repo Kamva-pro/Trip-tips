@@ -22,9 +22,15 @@ const Navbar = ({ defaultSticky }) => {
           <li className="navitem">
             <Link to="/" className="nav-link">Home</Link>
           </li>
-          <a><li className="navitem">Blog</li></a>
-          <a><li className="navitem">Explore</li></a>
-          <a><li className="navitem">Gallery</li></a>
+          <li className="navitem">
+            <Link to="/gallery" className="nav-link">Gallery</Link>
+          </li>
+          <li className="navitem">
+            <Link to="/explore" className="nav-link">Explore</Link>
+          </li>
+          <li className="navitem">
+            <Link to="/blog" className="nav-link">Blog</Link>
+          </li>
           <img className="menu-dark" src={menu_dark} alt="" />
           <img className="menu-white" src={menu_white} alt="" />
         </ul>

@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      <Navbar defaultSticky/>
+      <div className="gallery">
+        gallery
+      </div>
+    </div>
   )
 }
 
