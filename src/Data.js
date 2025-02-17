@@ -14,6 +14,7 @@ import { babylon,
 export default [
 
     {
+        id: 1,
         img: about,
         title: "Take a Journey Through Europe",
         location: "Paris, France",
@@ -24,6 +25,7 @@ export default [
     },
 
     {
+        id: 2,
         img: slider,
         title: "Discover the Beauty of Tuscany",
         location: "Florence, Italy",
@@ -34,6 +36,7 @@ export default [
     },
 
     {
+        id: 3,
         img: aaron,
         title: "Experience the Northern Lights",
         location: "Reykjavik, Iceland",
@@ -45,6 +48,7 @@ export default [
 
 
     {
+        id: 4,
         img: slider3,
         title: "Explore the Beauty of Macedonia",
         location: "Skopje, Macedonia",
@@ -55,6 +59,7 @@ export default [
     },
 
     {
+        id: 5,
         img: babylon,
         title: "Step Back in Time in Babylon",
         location: "Hillah, Iraq",
@@ -65,6 +70,7 @@ export default [
     },
 
     {
+        id: 6,
         img: india,
         title: "Discover the Culture of India",
         location: "Delhi, India",
@@ -76,6 +82,7 @@ export default [
 
 
     {
+        id: 7,
         img: bali,
         title: "Discover the Beauty of Bali",
         location: "Bali, Indonesia",
@@ -86,6 +93,7 @@ export default [
     },
 
     {
+        id: 8,
         img: kenya,
         title: "Safari Adventure in Kenya",
         location: "Nairobi, Kenya",
@@ -96,6 +104,7 @@ export default [
     },
 
     {
+        id: 9,
         img: carribean,
         title: "Island Hopping in the Caribbean",
         location: "Caribbean",
@@ -106,6 +115,7 @@ export default [
     },
 
     {
+        id: 10,
         img: tokyo,
         title: "Discover the Magic of Japan",
         location: "Tokyo, Japan",

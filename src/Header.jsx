@@ -2,7 +2,7 @@ import menu from "./images/menu.png";
 import menu_white from "./images/menu-white.png";
 import menu_dark from './images/menu-dark.png';
 
-export default function()
+export const Header = () =>
 {
     window.addEventListener("scroll", function(){
         var nav = document.querySelector(".navbar");
@@ -14,7 +14,7 @@ export default function()
         <div>
             <section id="hero-section">
                 <div  className="hero-content ">
-                    <h1>Embark on a new adventure</h1>
+                    <h1>{"Embark on a new journey"}</h1>
                 </div>
             </section>
             <nav className="navbar">
