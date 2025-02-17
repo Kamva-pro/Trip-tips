@@ -226,18 +226,18 @@ main{
 /* Remove default link styles */
 a {
   text-decoration: none; /* Removes the underline */
-  color: inherit; /* Inherit color from parent (this keeps the text color the same as the rest of the content) */
+  
 }
 
 a:visited {
-  color: inherit; /* Ensures that the visited links do not turn purple */
+  color: inherit;
 }
 
 a:hover {
-  text-decoration: none; /* Optional: Removes underline on hover */
+  text-decoration: none; 
 }
 
 a:active {
-  text-decoration: none; /* Optional: Removes underline when clicked */
+  text-decoration: none; 
 }
 

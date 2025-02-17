@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Data from './Data.js';
 
-const Sidebar = () => {
+const Sidebar = ({travelId}) => {
     const categories = [
         "Beaches",
         "Cities",
@@ -23,14 +23,14 @@ const Sidebar = () => {
       <div className="sidebar-section">
         <h2>Recent Posts</h2>
         <ul>
-          {Data.slice(0, 4).map((travel) => (
-            <li key={travel.id}>
-              <Link to="/details" state={{ travelData: travel }}>
-                {travel.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
+      {Data.filter((travel) => travel.id !== travelId).map((travel) => (
+        <li key={travel.id}>
+          <Link to="/details" state={{ travelData: travel }}>
+            {travel.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
       </div>
 
       {/* <h2>Categories</h2>

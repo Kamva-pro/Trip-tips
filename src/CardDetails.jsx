@@ -47,7 +47,7 @@ const CardDetails = () => {
           </div>
         </div>
         
-        <Sidebar />
+        <Sidebar travelId={travelData.id}/>
       </div>
     </main>
   );
