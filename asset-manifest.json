@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/Trip-tips/static/css/main.5ff3d27d.css",
-    "main.js": "/Trip-tips/static/js/main.9f2a0284.js",
+    "main.css": "/Trip-tips/static/css/main.df418014.css",
+    "main.js": "/Trip-tips/static/js/main.98a76a17.js",
     "static/js/787.c1112931.chunk.js": "/Trip-tips/static/js/787.c1112931.chunk.js",
+    "static/media/bali-2.jpg": "/Trip-tips/static/media/bali-2.7403f035475935bfab07.jpg",
+    "static/media/kenya-4.jpg": "/Trip-tips/static/media/kenya-4.dbf9df9ce139c6cc955e.jpg",
+    "static/media/babylon.jpg": "/Trip-tips/static/media/babylon.9c821c1e7cf9efab7186.jpg",
+    "static/media/tokyo.jpg": "/Trip-tips/static/media/tokyo.69ffba2e5b62c717f3f9.jpg",
+    "static/media/carribean.jpg": "/Trip-tips/static/media/carribean.4bffe3d9ddc211f70f44.jpg",
+    "static/media/aaron.png": "/Trip-tips/static/media/aaron.77f7db54fcddbd4f8afe.png",
+    "static/media/slider-img.jpg": "/Trip-tips/static/media/slider-img.002268f7c3f198860b9c.jpg",
+    "static/media/slider-img3.jpg": "/Trip-tips/static/media/slider-img3.935c3664c6c44a39591f.jpg",
     "static/media/slider-img2.jpg": "/Trip-tips/static/media/slider-img2.04ec7910429a291afa47.jpg",
+    "static/media/about-img.jpg": "/Trip-tips/static/media/about-img.00ac8702b99514f450d1.jpg",
+    "static/media/p5.jpg": "/Trip-tips/static/media/p5.e692ea73ab66f8c7ecc8.jpg",
     "index.html": "/Trip-tips/index.html",
-    "main.5ff3d27d.css.map": "/Trip-tips/static/css/main.5ff3d27d.css.map",
-    "main.9f2a0284.js.map": "/Trip-tips/static/js/main.9f2a0284.js.map",
+    "main.df418014.css.map": "/Trip-tips/static/css/main.df418014.css.map",
+    "main.98a76a17.js.map": "/Trip-tips/static/js/main.98a76a17.js.map",
     "787.c1112931.chunk.js.map": "/Trip-tips/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ff3d27d.css",
-    "static/js/main.9f2a0284.js"
+    "static/css/main.df418014.css",
+    "static/js/main.98a76a17.js"
   ]
 }
