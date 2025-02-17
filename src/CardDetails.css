@@ -1,3 +1,9 @@
+/* Prevent content from being hidden behind the sticky navbar */
+.card-details-page {
+  padding-top: 40px;  /* Adjust this value to match your navbar height */
+}
+
+
 /* Container for the entire page content */
 .card-details-container {
   display: flex;

@@ -1,9 +1,8 @@
-// CardDetails.jsx
 import React from 'react';
-import { Header } from './Header';
 import { useLocation } from 'react-router-dom';
-import './CardDetails.css';
 import Navbar from './Navbar';
+import Sidebar from './Sidebar'; 
+import './CardDetails.css';
 
 const CardDetails = () => {
   const location = useLocation();
@@ -14,10 +13,8 @@ const CardDetails = () => {
   }
 
   return (
-    <main>
+    <main className="card-details-page">
       <Navbar defaultSticky />
-      {/* Optionally include a header if needed */}
-      {/* <Header /> */}
       <div className="card-details-container">
         <div className="blog-post-content">
           <div className="blog-card">
@@ -49,33 +46,8 @@ const CardDetails = () => {
             </div>
           </div>
         </div>
-        <aside className="sidebar">
-          <div className="sidebar-section">
-            <h2>About This Blog</h2>
-            <p>
-              Welcome to Trip Tips! We share travel adventures and tips to inspire your next getaway.
-              Join us on our journey as we explore the best destinations around the world.
-            </p>
-          </div>
-          <div className="sidebar-section">
-            <h2>Recent Posts</h2>
-            <ul>
-              <li><a href="#">Island Hopping in the Caribbean</a></li>
-              <li><a href="#">Exploring the Alps</a></li>
-              <li><a href="#">Urban Escapes</a></li>
-              <li><a href="#">A Taste of Asia</a></li>
-            </ul>
-          </div>
-          <div className="sidebar-section">
-            <h2>Categories</h2>
-            <ul>
-              <li><a href="#">Beaches</a></li>
-              <li><a href="#">Mountains</a></li>
-              <li><a href="#">Cities</a></li>
-              <li><a href="#">Culture</a></li>
-            </ul>
-          </div>
-        </aside>
+        
+        <Sidebar />
       </div>
     </main>
   );
