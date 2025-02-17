@@ -1,5 +1,6 @@
 // Navbar.jsx
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import menu from "./images/menu.png";
 import menu_white from "./images/menu-white.png";
 import menu_dark from './images/menu-dark.png';
@@ -18,14 +19,16 @@ const Navbar = ({ defaultSticky }) => {
 
   return (
     <nav className={`navbar ${defaultSticky ? "sticky" : ""}`}>
-      <div className="navbar-brand">Trip Tips</div>
+      <Link to="/" className="navbar-brand">Trip Tips</Link>
       <div className="navlist">
         <ul>
-          <li className="navitem">Home</li>
-          <a><li className="navitem">Blog</li></a> 
+          <li className="navitem">
+            <Link to="/" className="nav-link">Home</Link>
+          </li>
+          <a><li className="navitem">Blog</li></a>
           <a><li className="navitem">Explore</li></a>
           <a><li className="navitem">Gallery</li></a>
-          <img className="menu-dark" src={menu_dark} alt=""/>
+          <img className="menu-dark" src={menu_dark} alt="" />
           <img className="menu-white" src={menu_white} alt="" />
         </ul>
       </div>

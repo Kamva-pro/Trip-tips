@@ -13,8 +13,10 @@ export default function Cart(props)
                     
                     <a className="location" target="_blank" href={props.googleMapsUrl}><p >{props.location}</p> </a>
 
-                    <p className="description"> {props.description}</p> 
-                    <p className="card-date">{props.startDate} - {props.endDate}</p>
+                    <p className="description">
+                    {props.description.split('.')[0]}.
+                    </p>
+                    {/* <p className="card-date">{props.startDate} - {props.endDate}</p> */}
 
                 </div>
              

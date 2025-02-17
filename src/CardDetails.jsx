@@ -36,9 +36,9 @@ const CardDetails = () => {
                     {travelData.location}
                   </a>
                 </span>
-                <span className="blog-card-dates">
+                {/* <span className="blog-card-dates">
                   {travelData.startDate} - {travelData.endDate}
-                </span>
+                </span> */}
               </div>
               <p className="blog-card-description">
                 {travelData.description}
