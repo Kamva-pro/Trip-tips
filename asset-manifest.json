@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Trip-tips/static/css/main.df418014.css",
-    "main.js": "/Trip-tips/static/js/main.98a76a17.js",
+    "main.js": "/Trip-tips/static/js/main.9bf1f042.js",
     "static/js/787.c1112931.chunk.js": "/Trip-tips/static/js/787.c1112931.chunk.js",
     "static/media/bali-2.jpg": "/Trip-tips/static/media/bali-2.7403f035475935bfab07.jpg",
     "static/media/kenya-4.jpg": "/Trip-tips/static/media/kenya-4.dbf9df9ce139c6cc955e.jpg",
@@ -16,11 +16,11 @@
     "static/media/p5.jpg": "/Trip-tips/static/media/p5.e692ea73ab66f8c7ecc8.jpg",
     "index.html": "/Trip-tips/index.html",
     "main.df418014.css.map": "/Trip-tips/static/css/main.df418014.css.map",
-    "main.98a76a17.js.map": "/Trip-tips/static/js/main.98a76a17.js.map",
+    "main.9bf1f042.js.map": "/Trip-tips/static/js/main.9bf1f042.js.map",
     "787.c1112931.chunk.js.map": "/Trip-tips/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df418014.css",
-    "static/js/main.98a76a17.js"
+    "static/js/main.9bf1f042.js"
   ]
 }
