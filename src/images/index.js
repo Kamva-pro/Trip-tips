@@ -8,7 +8,9 @@ import india from "../images/p5.jpg"
 import kenya from "../images/kenya-4.jpg"
 import bali from "../images/bali-2.jpg"
 import carribean from "../images/carribean.jpg"
-import tokyo from "..//images/tokyo.jpg"
+import tokyo from "../images/tokyo.jpg"
+import menu_white from "../images/menu-white.png";
+import menu_dark from '../images/menu-dark.png';
 
 export {
     aaron,
@@ -21,5 +23,7 @@ export {
     india,
     kenya,
     carribean,
-    tokyo
+    tokyo,
+    menu_dark,
+    menu_white
 }

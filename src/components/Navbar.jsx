@@ -1,9 +1,6 @@
-// Navbar.jsx
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import menu from "./images/menu.png";
-import menu_white from "./images/menu-white.png";
-import menu_dark from './images/menu-dark.png';
+import { menu_dark, menu_white } from '../images';
 
 const Navbar = ({ defaultSticky }) => {
   useEffect(() => {

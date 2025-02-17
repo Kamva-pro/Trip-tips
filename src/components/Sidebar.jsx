@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Data from './Data.js';
+import Data from '../Data.js';
 
 const Sidebar = ({travelId}) => {
     const categories = [

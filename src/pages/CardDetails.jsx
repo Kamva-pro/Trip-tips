@@ -1,8 +1,8 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import Navbar from './Navbar';
-import Sidebar from './Sidebar'; 
-import './CardDetails.css';
+import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar'; 
+import '../CardDetails.css';
 
 const CardDetails = () => {
   const location = useLocation();

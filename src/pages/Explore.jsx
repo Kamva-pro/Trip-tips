@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Data from './Data.js';
+import Data from '../Data.js';
 
 const categories = [
     "Beaches",
