@@ -1,13 +1,24 @@
-/* Container to center content and add padding */
+/* Container for the entire page content */
 .card-details-container {
-  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
 }
 
-/* The blog card container with a subtle shadow and rounded corners */
+/* Main blog post content area */
+.blog-post-content {
+  flex: 1 1 700px;
+}
+
+/* Sidebar area */
+.sidebar {
+  flex: 1 1 300px;
+}
+
+/* Blog Card Styling */
 .blog-card {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -16,26 +27,22 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Blog image styling */
 .blog-card-image {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Content inside the blog card */
 .blog-card-content {
   padding: 20px;
 }
 
-/* Title styling */
 .blog-card-title {
   margin-top: 0;
   font-size: 2rem;
   color: #222;
 }
 
-/* Meta info: location and dates */
 .blog-card-meta {
   margin: 10px 0;
   font-size: 0.9rem;
@@ -45,7 +52,6 @@
   flex-wrap: wrap;
 }
 
-/* Location styling */
 .blog-card-location a {
   text-decoration: none;
   color: #007bff;
@@ -55,14 +61,43 @@
   text-decoration: underline;
 }
 
-/* Date range styling */
 .blog-card-dates {
   margin-top: 5px;
 }
 
-/* Description styling */
 .blog-card-description {
   line-height: 1.6;
   margin-top: 15px;
   font-size: 1.1rem;
+}
+
+/* Sidebar Section Styling */
+.sidebar-section {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.sidebar-section h2 {
+  margin-top: 0;
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-section ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar-section ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.sidebar-section ul li a:hover {
+  text-decoration: underline;
 }
