@@ -3,8 +3,10 @@ export default function Cart(props)
     return(
         <div>
             <article className="card">
-                
-                <img className="card-img" src={props.img}/>
+                <div className="blur-load" >
+                <img loading="lazy" className="card-img" src={props.img}/>
+
+                </div>
 
                 <div className="card-content">
 

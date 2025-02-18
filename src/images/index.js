@@ -16,7 +16,7 @@ import egypt from "../images/egypt-1.jpg"
 import florence from "../images/florence.jpg"
 import gallery2 from "../images/gallery-2.jpg"
 import gallery9 from "../images/gallery-9.jpg"
-import gallery2 from "../images/gallery-14.jpg"
+import gallery14 from "../images/gallery-14.jpg"
 import hippo from "../images/hippo.jpg"
 import iceland from "../images/iceland.jpg"
 import img1 from "../images/img-1.jpg"
@@ -46,9 +46,7 @@ import pex8 from "../images/pexels-tnarg-4625371.jpg"
 import menu_white from "../images/menu-white.png";
 import menu_dark from '../images/menu-dark.png';
 
-
-export {
-    aaron,
+export {aaron,
     about,
     babylon,
     bali,
@@ -62,6 +60,7 @@ export {
     florence,
     gallery2,
     gallery9,
+    gallery14,
     hippo,
     iceland,
     img1,
@@ -91,5 +90,4 @@ export {
     slider3,
     tokyo,
     menu_dark,
-    menu_white
-}
+    menu_white}

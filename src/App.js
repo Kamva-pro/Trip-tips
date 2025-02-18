@@ -1,10 +1,12 @@
 import './App.css';
-import CardDetails from './pages/CardDetails.jsx';
-import HomePage from './pages/HomePage.jsx';
-import Explore from './pages/Explore.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Blog from './pages/Blog.jsx';
-import Gallery from './pages/Gallery.jsx';
+import { lazy } from 'react';
+
+const Gallery = lazy(() => import('./pages/Gallery.jsx'))
+const Blog = lazy(() => import('./pages/Blog.jsx'))
+const Explore = lazy(() => import('./pages/Explore.jsx'))
+const HomePage = lazy(() => import('./pages/HomePage.jsx'));
+const CardDetails = lazy(() => import('./pages/CardDetails.jsx'))
 
 function App() {
   return (
