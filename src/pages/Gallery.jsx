@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Gallery.css"
 import { aaron, about, babylon, bali, bali_2, banner1,
   banner2, banner3, bg, carribean, egypt, florence, gallery2, gallery9, gallery14,

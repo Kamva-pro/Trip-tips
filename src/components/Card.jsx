@@ -4,7 +4,7 @@ export default function Cart(props)
         <div>
             <article className="card">
                 <div className="blur-load" >
-                <img loading="lazy" className="card-img" src={props.img}/>
+                <img loading="lazy" className="card-img" alt={props.title} src={props.img}/>
 
                 </div>
 
@@ -13,12 +13,11 @@ export default function Cart(props)
                     <p className="card-title">{props.title}</p>
                      
                     
-                    <a className="location" target="_blank" href={props.googleMapsUrl}><p >{props.location}</p> </a>
+                    <a className="location" rel="noreferrer" target="_blank" href={props.googleMapsUrl}><p >{props.location}</p> </a>
 
                     <p className="description">
                     {props.description.split('.')[0]}.
                     </p>
-                    {/* <p className="card-date">{props.startDate} - {props.endDate}</p> */}
 
                 </div>
              
