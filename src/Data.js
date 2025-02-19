@@ -1,6 +1,6 @@
-import { babylon, bali, aaron, about, tokyo, carribean, slider, slider3, india, kenya } from "./images";
+import { babylon, bali, aaron, about, tokyo, carribean, slider, slider2, slider3, india, kenya } from "./images";
 
-export default data = [
+export default [
     {
         id: 1,
         img: about,

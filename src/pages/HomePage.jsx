@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
-import  data  from '../Data.js';
+import Data from '../Data.js';
 import Card from '../components/Card.jsx';
 import { Link } from 'react-router-dom';
 import { Header } from '../components/Header.jsx';
 
 const HomePage = () => {
-  const travelData = data.map((travel) => {
+  const travelData = Data.map((travel) => {
     return (
       <Link 
       className='no-underline'
