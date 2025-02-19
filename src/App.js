@@ -14,9 +14,9 @@ function App() {
       <Routes >
         <Route path='/' element={<HomePage/>}/>
         <Route path='details' element={<CardDetails/>}/>
-        <Route path='explore' element={<Explore/>}/>
+        {/* <Route path='explore' element={<Explore/>}/> */}
         <Route path='blog' element={<Blog/>}/>
-        <Route path='gallery' element={<Gallery/>}/>
+        {/* <Route path='gallery' element={<Gallery/>}/> */}
       </Routes>
     </BrowserRouter>
   );
