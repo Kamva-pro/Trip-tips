@@ -1,6 +1,6 @@
 import { babylon, bali, aaron, about, tokyo, carribean, slider, slider3, india, kenya } from "./images";
 
-export const data = [
+export default data = [
     {
         id: 1,
         img: about,
