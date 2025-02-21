@@ -46,6 +46,7 @@ main{
 }
 
 .navbar.sticky{
+  z-index: 100;
   transition: 0.6s;
   background-color: white;
   color: #333; 

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import "../Blog.css"; 
+import Navbar from "../components/Navbar";
+import Data from '../Data.js';
 
 const Blog = () => {
   const [title, setTitle] = useState("");
@@ -19,11 +21,27 @@ const Blog = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const blogData = { title, description, location, image };
-    console.log("Blog Post Data:", blogData);
-    alert("Blog post submitted!");
+
+    try {
+      Data.push(blogData);
+      console.log("Blog Post Data:", blogData);
+      alert("Blog post submitted!");
+    } catch (error) {
+      console.log("There was an error saving the information: ", error)
+      alert("There was an error posting the blog post: ", error)
+    }
+    finally{
+      setTitle("")
+      setDescription("")
+      setLocation("")
+      setImage("")
+    }
+    
   };
 
   return (
+    <section>
+      <Navbar defaultSticky/>
     <div className="blog-container">
       <h2>We love to hear your experience</h2>
 
@@ -62,11 +80,13 @@ const Blog = () => {
 
         {image && <img src={image} alt="Preview" className="blog-image-preview" />}
 
-        <button type="submit" className="blog-submit-btn">
+        <button className="blog-submit-btn">
           Publish Blog Post
         </button>
       </form>
     </div>
+    </section>
+
   );
 };
 
