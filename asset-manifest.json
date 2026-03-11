@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Trip-tips/static/css/main.5f483779.css",
-    "main.js": "/Trip-tips/static/js/main.1f092703.js",
+    "main.css": "/Trip-tips/static/css/main.0aae8f3f.css",
+    "main.js": "/Trip-tips/static/js/main.a5c4598e.js",
     "static/css/264.8d251070.chunk.css": "/Trip-tips/static/css/264.8d251070.chunk.css",
     "static/js/264.68c7970e.chunk.js": "/Trip-tips/static/js/264.68c7970e.chunk.js",
     "static/css/37.acac6a3b.chunk.css": "/Trip-tips/static/css/37.acac6a3b.chunk.css",
     "static/js/37.94905f88.chunk.js": "/Trip-tips/static/js/37.94905f88.chunk.js",
     "static/js/142.7ec00a6b.chunk.js": "/Trip-tips/static/js/142.7ec00a6b.chunk.js",
-    "static/js/836.2087c0ec.chunk.js": "/Trip-tips/static/js/836.2087c0ec.chunk.js",
+    "static/js/836.510fb59e.chunk.js": "/Trip-tips/static/js/836.510fb59e.chunk.js",
     "static/css/175.8a18334b.chunk.css": "/Trip-tips/static/css/175.8a18334b.chunk.css",
     "static/js/175.696faa13.chunk.js": "/Trip-tips/static/js/175.696faa13.chunk.js",
     "static/js/787.c1112931.chunk.js": "/Trip-tips/static/js/787.c1112931.chunk.js",
@@ -63,14 +63,14 @@
     "static/media/index-10.jpg": "/Trip-tips/static/media/index-10.d103cd16767e4f3feba4.jpg",
     "static/media/p2.jpg": "/Trip-tips/static/media/p2.cb83e58a53a598eb539d.jpg",
     "index.html": "/Trip-tips/index.html",
-    "main.5f483779.css.map": "/Trip-tips/static/css/main.5f483779.css.map",
-    "main.1f092703.js.map": "/Trip-tips/static/js/main.1f092703.js.map",
+    "main.0aae8f3f.css.map": "/Trip-tips/static/css/main.0aae8f3f.css.map",
+    "main.a5c4598e.js.map": "/Trip-tips/static/js/main.a5c4598e.js.map",
     "264.8d251070.chunk.css.map": "/Trip-tips/static/css/264.8d251070.chunk.css.map",
     "264.68c7970e.chunk.js.map": "/Trip-tips/static/js/264.68c7970e.chunk.js.map",
     "37.acac6a3b.chunk.css.map": "/Trip-tips/static/css/37.acac6a3b.chunk.css.map",
     "37.94905f88.chunk.js.map": "/Trip-tips/static/js/37.94905f88.chunk.js.map",
     "142.7ec00a6b.chunk.js.map": "/Trip-tips/static/js/142.7ec00a6b.chunk.js.map",
-    "836.2087c0ec.chunk.js.map": "/Trip-tips/static/js/836.2087c0ec.chunk.js.map",
+    "836.510fb59e.chunk.js.map": "/Trip-tips/static/js/836.510fb59e.chunk.js.map",
     "175.8a18334b.chunk.css.map": "/Trip-tips/static/css/175.8a18334b.chunk.css.map",
     "175.696faa13.chunk.js.map": "/Trip-tips/static/js/175.696faa13.chunk.js.map",
     "787.c1112931.chunk.js.map": "/Trip-tips/static/js/787.c1112931.chunk.js.map",
@@ -78,7 +78,7 @@
     "628.3ad1a650.chunk.js.map": "/Trip-tips/static/js/628.3ad1a650.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f483779.css",
-    "static/js/main.1f092703.js"
+    "static/css/main.0aae8f3f.css",
+    "static/js/main.a5c4598e.js"
   ]
 }
